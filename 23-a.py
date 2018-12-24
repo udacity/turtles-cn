@@ -2,7 +2,8 @@
 # ## turtle_methods.py
 # 答案
 import turtle
-amy = Turtle.Turtle()
+turtle.bgcolor('black') # 改变画布背景颜色为黑色，不要修改这句话
+amy = turtle.Turtle()
 
 # Make the width thicker so that the line will be easier to see
 # 使线条宽度加粗，以便更容易看到线条

@@ -2,8 +2,10 @@
 # ## errors.py
 
 import turtle
-melinda.pencolor("gray")
-melinda = Turtle.Turtle()
+turtle.bgcolor('black') # 改变画布背景颜色为黑色，不要修改这句话
+
+melinda.color("gray")
+melinda = turtle.Turtle()
 melinda.forward(100)
 melinda.left(120)
 melinda.forward(100)

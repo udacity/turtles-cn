@@ -1,15 +1,16 @@
 # # 22.嵌套循环
 # ## chain.py
 
-# In[ ]:
 
 
 import turtle
+turtle.bgcolor('black') # 改变画布背景颜色为黑色，不要修改这句话
+
 
 links = [1, 2, 3, 4, 5, 6, 7, 8]
 sides = [1, 2, 3, 4, 5, 6]
 
-weaver = Turtle.Turtle()
+weaver = turtle.Turtle()
 weaver.width(5)
 weaver.color('orange')
 
@@ -29,4 +30,4 @@ for link in links:
     weaver.forward(20)
     weaver.pendown()
 
-weaver.hideturtle.Turtle()
+weaver.hideturtle()

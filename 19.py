@@ -1,15 +1,13 @@
 # # 19.列表和循环
 # ## squiral.py
-# 
-
-# In[ ]:
 
 
 import turtle
+turtle.bgcolor('black') # 改变画布背景颜色为黑色，不要修改这句话
 
 lengths = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 
-dizzy = Turtle.Turtle()
+dizzy = turtle.Turtle()
 dizzy.color("blue")
 dizzy.width(5)
 

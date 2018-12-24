@@ -1,12 +1,9 @@
 # # 18.练习 — 将列表赋值给变量
 # ## lists_and_variables.py
 
-# In[ ]:
-
-
-# 请在这里写下你的答案
 import turtle
-amy = Turtle.Turtle()
+turtle.bgcolor('black') # 改变画布背景颜色为黑色，不要修改这句话
+amy = turtle.Turtle()
 amy.color("cyan")
 
 for item in [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]:

@@ -2,11 +2,9 @@
 # # 28.彩虹 turtle
 # ## anything.py
 
-# In[ ]:
 
-
-# 请在这里写下你的答案
 import turtle
+turtle.bgcolor('black') # 改变画布背景颜色为黑色，不要修改这句话
 
 rainbow = ["red", "orange", "yellow", "green", "blue", "purple"]
 
